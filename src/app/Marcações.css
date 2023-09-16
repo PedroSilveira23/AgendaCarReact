@@ -1,0 +1,48 @@
+/* Marcações.css */
+.marcações-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.marcações-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.marcações-content {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.marcações-content p {
+  font-size: 18px;
+  color: #555;
+}
+
+.return-button {
+  margin-top: 20px;
+}
+
+/* Style the return button */
+.return-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.return-button button:hover {
+  background-color: #2980b9;
+}
+
+/* Style the Link for better styling */
+.return-button a {
+  text-decoration: none;
+}

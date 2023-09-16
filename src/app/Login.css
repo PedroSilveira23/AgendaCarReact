@@ -1,0 +1,92 @@
+/* src/Pages/Login.css */
+
+/* Styles for the container */
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the title */
+  .login-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for labels */
+  .login-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for input fields */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .login-input:focus {
+    border-color: #007BFF;
+  }
+  
+  /* Styles for the login button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-button:hover {
+    background-color: #45a049;
+  }
+
+  /* Login.css */
+.login-container {
+    /* Your existing styles for the container */
+  
+    /* Add new styles for centering the button */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-button {
+    /* Your existing styles for the login button */
+  
+    /* Add margin to separate the login button from the "Voltar para Home" button */
+    margin-top: 10px;
+  }
+  
+  .home-button {
+    /* New styles for the "Voltar para Home" button */
+    margin-top: 20px; /* Adjust the margin to separate from the login button */
+  }
+  

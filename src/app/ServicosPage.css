@@ -1,0 +1,31 @@
+.servicos-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.servicos-page-img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px; /* Adicionando bordas arredondadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra suave */
+}
+
+.servicos-page-text {
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.servicos-page-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333; /* Cor mais escura para o título */
+}
+
+.servicos-page-paragraph {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555; /* Cor mais escura para o texto */
+}
